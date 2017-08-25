@@ -1,11 +1,15 @@
-<?xml version='1.0.5' encoding='utf-8'?>  
-<widget id="build.title.com" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">  
-<name>Title</name>  
-  
-<description>Description</description>  
-  
-<author email="mail" href="website">Name</author>  
-  
-<content src="index.html" />  
-<access origin="*" />  
-</widget> 
+    <?xml version="1.0" encoding="UTF-8"?>
+
+    <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+
+    <widget xmlns     = "http://www.w3.org/ns/widgets"
+
+            xmlns:gap = "http://phonegap.com/ns/1.0"
+
+    >
+
+    <access origin="*"/>
+
+    <plugin name="com.phonegap.plugins.pushplugin" source="pgb" />
+
+    </widget>
